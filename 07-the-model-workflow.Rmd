@@ -305,7 +305,7 @@ final_lm_res
 ```
 
 :::rmdnote
-Notice that `last_fit()` takes a data split as an input, not a dataframe. This function uses the split to generate the training and test sets for the final fitting and evaluation.
+Notice that `last_fit()` takes a data split as an input, not a data frame. This function uses the split to generate the training and test sets for the final fitting and evaluation.
 :::
 
 The `.workflow` column contains the fitted workflow and can be pulled out of the results using:
